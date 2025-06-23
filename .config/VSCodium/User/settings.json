@@ -1,0 +1,180 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    },
+    "editor.defaultColorDecorators": "always",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": false,
+  "clangd.path": "~/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd",
+  "debug.console.fontSize": 14,
+  "diffEditor.renderSideBySide": false,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.lineNumbers": "relative",
+  "editor.matchBrackets": "always",
+  "editor.minimap.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.DS_Store": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false,
+    "**/Thumbs.db": false
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "keyboard.dispatch": "keyCode",
+  "markdown.preview.fontSize": 22,
+  "notebook.lineNumbers": "on",
+  "python.createEnvironment.trigger": "off",
+  "python.terminal.executeInFileDir": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "sqltools.format": {
+    "linesBetweenQueries": 1,
+    "reservedWordCase": "upper"
+  },
+  "sqltools.useNodeRuntime": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.easymotion": true,
+  "vim.hlsearch": true,
+  "vim.ignorecase": true,
+  "vim.incsearch": true,
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "after": ["<C-o>", "<C-w>", "h"],
+      "before": ["<C-h>"]
+    },
+    {
+      "after": ["<C-o>", "<C-w>", "j"],
+      "before": ["<C-j>"]
+    },
+    {
+      "after": ["<C-o>", "<C-w>", "k"],
+      "before": ["<C-k>"]
+    },
+    {
+      "after": ["<C-o>", "<C-w>", "l"],
+      "before": ["<C-l>"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "after": ["<C-w>", "v"],
+      "before": ["<leader>", "s", "v"]
+    },
+    {
+      "after": ["<C-w>", "s"],
+      "before": ["<leader>", "s", "h"]
+    },
+    {
+      "after": ["<C-w>", "="],
+      "before": ["<leader>", "s", "e"]
+    },
+    {
+      "after": ["<C-w>", "h"],
+      "before": ["<C-h>"]
+    },
+    {
+      "after": ["<C-w>", "j"],
+      "before": ["<C-j>"]
+    },
+    {
+      "after": ["<C-w>", "k"],
+      "before": ["<C-k>"]
+    },
+    {
+      "after": ["<C-w>", "l"],
+      "before": ["<C-l>"]
+    },
+    {
+      "after": ["<C-d>", "z", "z"],
+      "before": ["<C-d>"]
+    },
+    {
+      "after": ["<C-u>", "z", "z"],
+      "before": ["<C-u>"]
+    },
+    {
+      "after": ["{", "z", "z"],
+      "before": ["{"]
+    },
+    {
+      "after": ["}", "z", "z"],
+      "before": ["}"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "f", "g"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["J"],
+      "after": ["7", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["7", "k"]
+    }
+  ],
+  "vim.smartcase": true,
+  "vim.sneak": true,
+  "vim.useSystemClipboard": true,
+  "window.menuBarVisibility": "toggle",
+  "window.newWindowProfile": "Default",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 14
+}
