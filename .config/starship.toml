@@ -1,0 +1,7 @@
+[character]
+success_symbol = "[INSERT](bold green) [❯](bold green)"
+error_symbol = "[INSERT](bold green) [❯](bold red)"
+vimcmd_symbol = "[NORMAL](bold red) [❯](bold green)"
+vimcmd_replace_one_symbol = "[REPLACE ONE](bold purple) [❯](bold green)"
+vimcmd_replace_symbol = "[REPLACE](bold purple) [❯](bold green)"
+vimcmd_visual_symbol = "[VISUAL](bold yellow) [❯](bold green)"
